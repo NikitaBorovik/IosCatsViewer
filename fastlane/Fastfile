@@ -37,5 +37,6 @@ lane :build_and_export do
     release_notes: "Some new project release",
     app: app_id
   )
+  puts("firebase_app_distribution is ok")
 end
  
