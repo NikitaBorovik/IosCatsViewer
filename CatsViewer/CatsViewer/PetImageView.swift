@@ -11,7 +11,7 @@ import FirebaseCrashlytics
 
 struct PetImageView: View {
     var imageUrl: String
-    
+    //
     
     var body: some View {
         let trace = Performance.startTrace(name: "TIME_TO_LOAD_IMAGE")
