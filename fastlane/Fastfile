@@ -27,6 +27,10 @@ lane :take_screenshots do
 end
 
 lane :build_and_export do
+  increment_version_number(
+    xcodeproj:"./CatsViewer/CatsViewer.xcodeproj",
+    version_number: "1.2"
+  )
   gym
   app_id = get_info_plist_value(
     path: "./CatsViewer/CatsViewer/GoogleService-Info.plist",
