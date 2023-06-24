@@ -33,6 +33,7 @@ lane :build_and_export do
     key: "GOOGLE_APP_ID"
   )
   firebase_app_distribution(
+    firebase_cli_token:ENV['1//0cQLzKR3xNUWXCgYIARAAGAwSNwF-L9IrC16gIDe5gxSipeDxhG2edG3Zj3cE1IpaptDUtdDCheUlQxxd2Va_XWCOSszSbH8isa8'],
     release_notes: "Some new project release",
     app: app_id,
   )
