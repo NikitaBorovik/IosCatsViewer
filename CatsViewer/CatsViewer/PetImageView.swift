@@ -12,7 +12,7 @@ import FirebaseCrashlytics
 struct PetImageView: View {
     var imageUrl: String
 
-    // some test comment
+    //some test comment
     var body: some View {
         let trace = Performance.startTrace(name: "TIME_TO_LOAD_IMAGE")
         AsyncImage(url: URL(string: imageUrl)) { phase in
